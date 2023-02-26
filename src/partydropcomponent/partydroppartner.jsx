@@ -80,24 +80,12 @@ const Partner = () => {
                   src={crypto}
                   position="top"
                   alt="..."
-                  style={{ width: "50%" , position:"relative" , left:"16px" }}
+                  style={{ width: "50%", position: "relative", left: "16px" }}
                 />
               </MDBCard>
             </a>
           </SwiperSlide>
 
-          <SwiperSlide>
-            <a href=" https://twitter.com/SaltySharksNFT " target="_blank">
-              <MDBCard style={{ background: "transparent" }}>
-                <MDBCardImage
-                  src={ss}
-                  position="top"
-                  alt="..."
-                  style={{ width: "70%" }}
-                />
-              </MDBCard>
-            </a>
-          </SwiperSlide>
           <SwiperSlide>
             <a href="https://billionairezombies.com/ " target="_blank">
               <MDBCard style={{ background: "transparent" }}>
@@ -112,7 +100,6 @@ const Partner = () => {
           </SwiperSlide>
         </Swiper>
       </Grid>
-
       <br />
       <br />
     </div>

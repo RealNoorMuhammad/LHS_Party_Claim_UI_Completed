@@ -740,17 +740,22 @@ Main components
 .partynavlogo{
     
 
-  width: 10%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 12%;
 }
 
 @media screen and (min-width:1000px) {
  
   .partynavlogo{
     
-width: 6%;
+width: 8%;
 position: relative;
 
-
+justify-content: center;
+text-align: center;
+align-items: center;
   }
   
 

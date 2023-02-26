@@ -2,7 +2,7 @@ import React from "react";
 import lost from "./lhs.png";
 import { Grid } from "@mui/material";
 import { useWallet } from "../hooks/useWallet";
-
+import logo from "./lh.png";
 const Partdropclaim = () => {
   const { account, connect, contractData, harvest } = useWallet();
   const { isWL, hasClaimed } = contractData;
@@ -26,6 +26,15 @@ const Partdropclaim = () => {
             fontSize: "17px",
           }}
         >
+          <br />
+          <br />
+          <a href="./">
+            {" "}
+            <img src={logo} className="partynavlogo" />
+          </a>
+
+          <br />
+          <br />
           <div class="">
             <br />
 

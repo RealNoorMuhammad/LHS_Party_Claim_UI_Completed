@@ -18,11 +18,7 @@ export default function ButtonAppBar() {
       <br/>
       <br/>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-        <br/>
-        <br/>
-          <img src={logo} className="partynavlogo" />
-          <br/>
-          <br/>
+        
         </Typography>
       </a>
     </Box>
